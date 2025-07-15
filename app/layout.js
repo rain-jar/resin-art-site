@@ -19,6 +19,24 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+            <Head>
+        <title>La Tête En Fleurs</title>
+        <meta name="description" content="Elegant and beautiful resin art by Stephanie" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="La Tête En Fleurs" />
+        <meta property="og:description" content="Discover trays, coasters, bowls, and tables handcrafted in resin." />
+        <meta property="og:image" content="https://lateteenfleurs.vercel.app/images/og-thumbnail.png" />
+        <meta property="og:url" content="https://lateteenfleurs.vercel.app" />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Resin Art – Elegant Resin Creations" />
+        <meta name="twitter:description" content="Discover trays, coasters, bowls, and tables handcrafted in resin." />
+        <meta name="twitter:image" content="https://lateteenfleurs.vercel.app/images/logo.png" />
+      </Head>
+
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
