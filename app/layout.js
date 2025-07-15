@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         {/* Open Graph */}
         <meta property="og:title" content="La Tête En Fleurs" />
         <meta property="og:description" content="Discover trays, coasters, bowls, and tables handcrafted in resin." />
-        <meta property="og:image" content="https://lateteenfleurs.vercel.app/images/og-thumbnail.png" />
+        <meta property="og:image" content="https://lateteenfleurs.vercel.app/images/logo.png" />
         <meta property="og:url" content="https://lateteenfleurs.vercel.app" />
         <meta property="og:type" content="website" />
 
