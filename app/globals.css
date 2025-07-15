@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #9D7F59;
+  color: #E8DEC5;
+  font-family: sans-serif;
+}
+
+@keyframes zoomOut {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.animate-zoomOut {
+  animation: zoomOut 5s ease-out forwards;
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "Ocean Tray",
+    "image": "/images/curated/Coasters.png",
+    "link": "/trays-coasters"
+  },
+  {
+    "id": 2,
+    "title": "Amber Bowl",
+    "image": "/images/curated/Bowls.png",
+    "link": "/bowls"
+  },
+  {
+    "id": 3,
+    "title": "Aurora Table",
+    "image": "/images/curated/Table.png",
+    "link": "/tables"
+  },
+  {
+    "id": 4,
+    "title": "Black Coaster",
+    "image": "/images/curated/Coaster-2.png",
+    "link": "/tables"
+  },
+  {
+    "id": 5,
+    "title": "Glowing Candle",
+    "image": "/images/curated/Candle.png",
+    "link": "/tables"
+  },
+  {
+    "id": 6,
+    "title": "Orange Bowl",
+    "image": "/images/curated/Bowl-2.png",
+    "link": "/tables"
+  }
+
+]
+
+  
