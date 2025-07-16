@@ -79,8 +79,8 @@ export default function Bowls() {
             <img src="/images/bowls/Img3.png" className="mb-4 break-inside-avoid rounded-lg shadow-lg w-full" />
             <div className="mb-4 break-inside-avoid rounded-lg shadow-lg bg-footer text-accent p-6">
                 <p className="text-lg leading-relaxed">
-                    Selection of pressed flowers and natural items gathered in Montreal and South Africa. Produced using
-                    silicone moulds and slow casting resin.
+                    Selection of flowers and natural items harvested in Montreal, dried in silica gel, produced with use of
+                    silicon moulds and slow casting resin.
                 </p>
             </div>
             <img src="/images/bowls/Img4.png" className="mb-4 break-inside-avoid rounded-lg shadow-lg w-full" />
