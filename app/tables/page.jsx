@@ -28,7 +28,7 @@ export default function Tables() {
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4 mt-[20px]">
           <div className="bg-footer text-accent p-6 rounded-lg shadow-lg flex items-center justify-center">
             <p className="text-lg ml-8 mr-8 leading-relaxed text-center">
-              Upcycled IKEA tables filled with a selection of flowers and natural items from South Africa, Montreal and Muskoka,Canada, dried in silica gel, slow casting 
+              Upcycled IKEA tables filled with a selection of flowers and natural items from South Africa, Montreal and Muskoka,Canada. Dried in silica gel, slow casting 
               and durable top coat resin.
             </p>
           </div>
