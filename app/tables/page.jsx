@@ -36,9 +36,9 @@ export default function Tables() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-[20px]">
 
-            <div className="row-span-3">
+            <div className="row-span-2">
               <Image
-                src="/images/tables/table2.png"
+                src="/images/tables/table6.png"
                 alt="Trays Set"
                 width={600}
                 height={800}
@@ -47,24 +47,24 @@ export default function Tables() {
             </div>
 
           {/* Box 2 - Small Image */}
-          <div className="row-span-2">
+          <div className="flex">
             <Image
               src="/images/tables/table3.png"
               alt="Coasters"
-              width={600}
-              height={800}
-              className="rounded-lg shadow-lg object-cover w-full h-full"
+              width={200}
+              height={300}
+              className="rounded-lg shadow-lg object-cover w-full h-300"
             />
           </div>
 
           {/* Box 3 - Small Image */}
-          <div>
+          <div className="flex justify-center">
             <Image
               src="/images/tables/table4.png"
               alt="Coaster with Leaf"
-              width={200}
-              height={200}
-              className="rounded-lg shadow-lg object-cover w-full h-full"
+              width={400}
+              height={400}
+              className="rounded-lg shadow-lg object-cover w-400 h-400"
             />
           </div>
         </div>
