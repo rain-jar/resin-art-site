@@ -16,12 +16,13 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "La Tete En Fleurs",
   description: "Elegant and beautiful resin art by Stephanie",
+  image: "images/logo.png",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-            <Head>
+      <Head>
         <title>La Tête En Fleurs</title>
         <meta name="description" content="Elegant and beautiful resin art by Stephanie" />
 
