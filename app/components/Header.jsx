@@ -35,7 +35,15 @@ export default function Header() {
 
       {/* Right: Menu Links + Icons */}
       <nav className="flex gap-6 items-center">
-        <a href="/trays-coasters" className="hover:underline">Shop</a>
+        {/* Shop Dropdown */}
+        <div className="group relative">
+          <span className="cursor-pointer hover:underline">Shop</span>
+          <div className="absolute left-0 mt-2 w-40 bg-primary shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <Link href="/trays-coasters" className="block px-4 py-2 hover:bg-accent hover:text-primary">Trays & Coasters</Link>
+            <Link href="/bowls" className="block px-4 py-2 hover:bg-accent hover:text-primary">Bowls</Link>
+            <Link href="/tables" className="block px-4 py-2 hover:bg-accent hover:text-primary">Tables</Link>
+          </div>
+        </div>
         <a href="/about" className="hover:underline">About</a>
         <FaSearch className="w-5 h-5 cursor-pointer hover:scale-110 transition-transform" />
         <FaShoppingCart className="w-5 h-5 cursor-pointer hover:scale-110 transition-transform" />
