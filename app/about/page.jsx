@@ -51,7 +51,7 @@ export default function About() {
         </div>
 
         {/* Right: Image */}
-        <div className="w-full md:w-1/2 h-auto relative min-h-[300px]">
+        <div className="w-full md:w-1/2 h-auto relative min-h-[500px]">
           <Image
             src="/images/Stephie.png" // 👉 Replace with your image
             alt="Loom or Artisan"
